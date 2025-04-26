@@ -1,0 +1,76 @@
+/* src/styles.css */
+
+/* Body and general layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Navbar customizations */
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar a {
+    font-weight: bold;
+    color: #333;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+  
+  .navbar a:hover {
+    color: #f97316; /* Tailwind's orange-500 */
+  }
+  
+  /* Course Card hover effect */
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Course Detail Page Customizations */
+  .course-detail .image {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-detail .video {
+    border-radius: 8px;
+    max-width: 100%;
+    margin: 20px 0;
+  }
+  
+  button.bg-orange-500 {
+    background-color: #f97316; /* Tailwind's orange-500 */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.bg-orange-500:hover {
+    background-color: #f97316; /* Darker shade of orange */
+  }
+  
